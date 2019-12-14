@@ -10,5 +10,5 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  Spielberg_movies = directors_database[]
+  Spielberg_movies = directors_database[0][:movies]
 end
