@@ -10,11 +10,11 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  Spielberg_movies = directors_database[0][:movies]
+  spielberg_movies = directors_database[0][:movies]
   row_index = 0 
   
-  while row_index < Spielberg_movies.length do 
-    puts Spielberg_movies[row_index][:title]
+  while row_index < spielberg_movies.length do 
+    puts spielberg_movies[row_index][:title]
     row_index += 1
   end
 
